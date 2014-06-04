@@ -10,7 +10,7 @@
   }],
   "require": {
     "symfony/symfony": "~2.4",
-    "propel/propel1": "dev-aria"
+    "propel/propel1": "dev-master"
   },
   "repositories": [
       {
