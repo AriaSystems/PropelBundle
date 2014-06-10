@@ -10,14 +10,8 @@
   }],
   "require": {
     "symfony/symfony": "~2.4",
-    "propel/propel1": "~1.6.x-dev"
+    "propel/propel1": "~1.6.9"
   },
-  "repositories": [
-      {
-          "type": "vcs",
-          "url": "https://github.com/AriaSystems/Propel"
-      }
-  ],  
   "require-dev": {
     "sensio/framework-extra-bundle": "~3.0",
     "fzaninotto/faker": "dev-master"
