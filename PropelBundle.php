@@ -26,7 +26,7 @@ class PropelBundle extends Bundle
      */
     public function boot()
     {
-        require_once $this->container->getParameter('propel.path').'/runtime/lib/Propel.php';
+        require_once $this->container->getParameter('propel.path').'propel1/runtime/lib/Propel.php';
 
         if (0 === strncasecmp(PHP_SAPI, 'cli', 3)) {
             set_include_path($this->container->getParameter('kernel.root_dir').'/..'.PATH_SEPARATOR.
